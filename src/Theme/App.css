@@ -1,0 +1,57 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "antd/dist/antd.css";
+
+:root {
+  --text-color: #686f7a;
+  --red-color: #ed2a26;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.root {
+  position: relative;
+}
+
+.ant-scrolling-effect.ant-scrolling-effect {
+  width: 100% !important;
+}
+* {
+  font-family: "Montserrat" !important ;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("../assets/fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url("../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url("../assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: url("../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 900;
+  src: url("../assets/fonts/Montserrat/static/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: url("../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}

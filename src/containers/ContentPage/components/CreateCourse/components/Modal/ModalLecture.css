@@ -1,0 +1,196 @@
+.modal-in-section .ant-tabs-nav-list {
+  width: 100% !important;
+}
+.modal-in-section .ant-tabs-tab {
+  display: flex !important;
+  justify-content: center !important;
+  flex: 1 !important;
+  text-align: center !important;
+  flex-direction: row !important;
+}
+.modal-in-section .ant-tabs-tab:hover {
+  border-color: var(--red-color) !important;
+}
+.modal-in-section .ant-tabs-tab-active {
+  background: var(--red-color) !important;
+  color: white !important;
+}
+.modal-in-section .ant-tabs-tab-active:hover {
+  border-bottom-color: var(--red-color) !important;
+  color: white !important;
+}
+.modal-in-section .ant-tabs-tab-btn .ant-typography {
+  color: var(--text-color) !important;
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+}
+.modal-in-section .ant-tabs-tab-active .ant-typography {
+  color: white !important;
+}
+.modal-in-section .ant-tabs-tab:hover .ant-typography {
+  color: black !important;
+}
+.modal-in-section .ant-tabs-tab-active:hover .ant-typography {
+  color: white !important;
+}
+.modal-in-section .ant-tabs-tab:hover .lecture-icon {
+  fill: black !important;
+}
+.modal-in-section .ant-tabs-tab-active .lecture-icon {
+  fill: white !important;
+}
+.modal-in-section .ant-tabs-tab-active:hover .lecture-icon {
+  fill: white !important;
+}
+.modal-in-section .lecture-icon {
+  fill: var(--text-color);
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.5rem;
+}
+.modal-in-section .lecture-icon-action {
+  fill: var(--text-color);
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.5rem;
+}
+.modal-in-section .lecture-icon-action:hover {
+  fill: black;
+  cursor: pointer;
+}
+.modal-in-section .lecture-delete-action {
+  fill: var(--text-color);
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+}
+.modal-in-section .lecture-delete-action:hover {
+  fill: black;
+  cursor: pointer;
+}
+.modal-in-section .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white;
+  font-weight: 600 !important;
+}
+.modal-in-section .ant-tabs-tab .ant-tabs-tab-btn {
+  color: var(--text-color);
+  font-weight: 600 !important;
+}
+.modal-in-section .ant-tabs-tab:hover {
+  color: black;
+}
+.card-video-type.ant-tabs-card {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.modal-in-section .file-container {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  border: 1px dashed var(--text-color);
+  border-radius: 0.5rem;
+}
+.modal-in-section .btn-upload-file {
+  padding: 0.8rem 1.6rem;
+  height: auto;
+  width: auto;
+  border-color: var(--red-color);
+  color: var(--red-color);
+}
+.modal-in-section .btn-upload-file:hover {
+  background-color: var(--red-color);
+  color: white;
+  border-color: var(--red-color);
+}
+.modal-in-section .btn-upload-file:focus {
+  background-color: var(--red-color);
+  color: white;
+  border-color: var(--red-color);
+}
+.modal-in-section .collapse-question .ant-collapse-header {
+  background: var(--red-color);
+}
+.modal-in-section .collapse-question .ant-collapse-header:hover {
+  opacity: 0.9;
+}
+.modal-in-section .collapse-question .ant-collapse-header .text-bold {
+  color: white;
+}
+.modal-in-section .collapse-question .ant-collapse-header:hover .text-bold {
+  color: black;
+}
+.modal-in-section .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  display: block;
+}
+.modal-in-section .option-container {
+  background-color: #f7f7f7;
+}
+.modal-in-section .option-header {
+  border: 1px solid #efefef;
+}
+.modal-in-section .ant-switch-checked {
+  background: var(--red-color);
+}
+.modal-in-section .ant-tabs > .ant-tabs-nav .ant-tabs-nav-more,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-more {
+  display: none;
+}
+.modal-in-section .content-list-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.modal-in-section .content-list-icon-action {
+  fill: var(--text-color);
+  visibility: hidden;
+}
+.modal-in-section .content-list-icon-action:hover {
+  cursor: pointer;
+  fill: black;
+}
+.modal-in-section .ant-table-row:hover .content-list-icon-action {
+  visibility: visible;
+}
+.modal-in-section .uploaded-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.modal-in-section .uploaded-container:hover .ant-image-mask {
+  opacity: 1;
+}
+.modal-in-section .uploaded-container:hover .delete-img-button {
+  visibility: visible;
+}
+.modal-in-section .delete-img-button {
+  position: absolute;
+  top: 70%;
+  fill: white;
+  width: 1.6rem;
+  height: 1.6rem;
+  visibility: hidden;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-in-section .delete-img-button:hover {
+  fill: var(--red-color);
+}
+.modal-in-section .ant-upload.ant-upload-select-picture-card {
+  width: 100%;
+  height: 12.925rem;
+}
+.modal-in-section
+  .edit-picture-upload
+  .ant-upload.ant-upload-select-picture-card {
+  width: 100%;
+  height: 10.2rem;
+}
+
+@media (max-width: 57.6rem) {
+  .modal-in-section .ant-tabs-nav-list {
+    flex-direction: column !important;
+  }
+  .modal-in-section .column-file-lecture {
+    padding: 0.5rem;
+  }
+}
